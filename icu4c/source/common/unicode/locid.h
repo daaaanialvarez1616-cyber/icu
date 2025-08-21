@@ -1237,6 +1237,8 @@ private:
               const char* (Heap::*const HEAP)() const>
     const char* getField() const;
 
+    void initBaseName(UErrorCode& status);
+
     static const Locale &getLocale(int locid);
 
     /**
